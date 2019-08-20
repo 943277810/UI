@@ -40,55 +40,18 @@
                 items: [
                     {
                         icon: 'el-icon-document',
-                        index:1,
                         title: '基础数据管理',
                         subs: [
                             {
-                                icon: 'el-icon-arrow-right',
                                 index: 'BasicData',
                                 title: '数据字典管理'
                             },
                             {
-                                icon: 'el-icon-arrow-right',
                                 index: 'SubjectsType',
                                 title: '题目类别管理'
-                            },
-                            {
-                                icon: 'el-icon-arrow-right',
+                            },       {
                                 index: '404',
                                 title: '404页面'
-                            }
-                        ]
-                    },
-                    {
-                        icon: 'el-icon-data-analysis',
-                        index:2,
-                        title: '系统管理',
-                        subs: [
-                            {
-                                icon: 'el-icon-arrow-right',
-                                index: 'Organization',
-                                title: '机构管理'
-                            },
-                            {
-                                icon: 'el-icon-arrow-right',
-                                index: 'Company',
-                                title: '公司管理'
-                            },
-                            {
-                                icon: 'el-icon-arrow-right',
-                                index: 'Department',
-                                title: '部门管理'
-                            },
-                            {
-                                icon: 'el-icon-arrow-right',
-                                index: 'Resource',
-                                title: '资源管理'
-                            },
-                            {
-                                icon: 'el-icon-arrow-right',
-                                index: 'Sole',
-                                title: '角色管理'
                             }
                         ]
                     }

@@ -15,47 +15,12 @@ export default new Router({
             meta: { title: '自述文件' },
             children:[
                 {
-                    path: '/Categpries',
-                    component: resolve => require(['../components/page/Categpries.vue'], resolve),
-                    meta: { title: '..' }
-                },
-                {
-                    path: '/OrganizationAdd',
-                    component: resolve => require(['../components/page/OrganizationAdd.vue'], resolve),
-                    meta: { title: '组织机构管理添加' }
-                },
-                {
-                    path: '/Sole',
-                    component: resolve => require(['../components/page/Sole.vue'], resolve),
-                    meta: { title: '角色管理' }
-                },
-                {
-                    path: '/Resource',
-                    component: resolve => require(['../components/page/Resource.vue'], resolve),
-                    meta: { title: '资源管理' }
-                },
-                {
-                    path: '/Organization',
-                    component: resolve => require(['../components/page/Organization.vue'], resolve),
-                    meta: { title: '机构管理' }
-                },
-                {
-                    path: '/Department',
-                    component: resolve => require(['../components/page/Department.vue'], resolve),
-                    meta: { title: '部门管理' }
-                },
-                {
-                    path: '/Company',
-                    component: resolve => require(['../components/page/Company.vue'], resolve),
-                    meta: { title: '公司管理' }
-                },
-                {
                     path: '/SubjectsType',
                     component: resolve => require(['../components/page/SubjectsType.vue'], resolve),
                     meta: { title: '题目类型管理' }
                 },
                 {
-                    path: '/BasicData',
+                    path: '/BaasicDat',
                     component: resolve => require(['../components/page/BasicData.vue'], resolve),
                     meta: { title: '基础数据管理' }
                 },
